@@ -1,0 +1,31 @@
+:root {
+  --font-main: 'Adelle Sans', 'Droid Sans', -apple-system, 'Helvetica Neue',
+    'Segoe UI', 'Arial', sans-serif;
+  --font-heading: 'Gilroy', 'Avenir', 'Century Gothic', -apple-system,
+    'Helvetica Neue', 'Segoe UI', 'Roboto', sans-serif;
+
+  /* New colours */
+
+  --blue: #1e6b9c;
+  --blue-light: #56cbe6;
+  --green: #23d8a0;
+  --purple: #a9439a;
+  --yellow: #ffda69;
+  --red: #ea215a;
+
+  --white: #ffffff;
+  --lighter: #fafafa;
+  --light: #f3f2f2;
+  --dark: #25333a;
+
+  --grey-dark: #283339;
+  --grey: #425968;
+  --grey-light: #dae1e2;
+
+  --grey-green: #eff5f5;
+  --grey-blue: #8e9ca7;
+
+  --confident-ease: cubic-bezier(0.39, 0.575, 0.565, 1);
+  --bounce-ease: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --smooth-ease: cubic-bezier(0.61, 1, 0.88, 1);
+}

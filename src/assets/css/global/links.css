@@ -1,0 +1,13 @@
+a:not([class]) {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: var(--red) 2px solid;
+  font-family: 'Gilroy', 'Avenir', 'Century Gothic', -apple-system,
+    'Helvetica Neue', 'Segoe UI', 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a:not([class]):hover,
+a:not([class]):focus {
+  color: var(--red);
+}

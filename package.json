@@ -1,0 +1,42 @@
+{
+  "name": "11ty-starter",
+  "version": "1.0.0",
+  "description": "Should save some time in future",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx eleventy --serve & gulp watch",
+    "build": "npx eleventy & gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearleft/11ty-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clearleft/11ty-starter/issues"
+  },
+  "homepage": "https://github.com/clearleft/11ty-starter#readme",
+  "dependencies": {
+    "@11ty/eleventy-cache-assets": "^2.0.3",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rollup": "^2.17.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.0.0",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}

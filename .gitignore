@@ -1,0 +1,14 @@
+# Misc
+*.log
+npm-debug.*
+*.swp
+.DS_Store
+Thumbs.db
+.env
+.cache
+package-lock.json
+dist/
+
+# Node modules and output
+node_modules
+dist

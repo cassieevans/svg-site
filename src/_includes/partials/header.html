@@ -1,0 +1,15 @@
+<header role="banner" class="pad-around">
+  <div class="constrain">
+    <a href="/" aria-label="Clearleft">
+      {% include "partials/logo.svg" %}
+    </a>
+
+    <nav aria-label="primary">
+      <ul>
+        {% for item in example.items %}
+          <a href="#">{{item.text}}</a >
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

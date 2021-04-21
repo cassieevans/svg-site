@@ -1,0 +1,19 @@
+/* global bois */
+@import 'global/tokens.css';
+@import 'global/reset.css';
+@import 'global/global.css';
+@import 'global/fonts.css';
+@import 'global/typography.css';
+@import 'global/layout.css';
+@import 'global/containers.css';
+@import 'global/utilities.css';
+@import 'global/animations.css';
+
+/* atom bois */
+
+/* component bois */
+@import 'components/footer.css';
+@import 'components/header.css';
+
+/* print */
+@import 'global/print.css';

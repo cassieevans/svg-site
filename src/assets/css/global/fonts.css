@@ -1,0 +1,48 @@
+/** Normal  **/
+
+@font-face {
+  font-family: 'Adelle Sans';
+  src: url('../fonts/adellesans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/adellesans-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Adelle Sans';
+  src: url('../fonts/adellesans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/adellesans-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Adelle Sans';
+  src: url('../fonts/adellesans-italic-webfont.woff2') format('woff2'),
+    url('../fonts/adellesans-italic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'),
+    url('../fonts/gilroy-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/** Black/Heavy **/
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-black-webfont.woff2') format('woff2'),
+    url('../fonts/gilroy-black-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: fallback;
+}

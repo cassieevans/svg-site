@@ -1,0 +1,161 @@
+/* Clever Utopia biz - @link https://utopia.fyi/generator-mk-ii?c=320,19,1.25,1380,22,1.333,5,2,414-834 */
+
+:root {
+  --fluid-min-width: 320;
+  --fluid-max-width: 1380;
+
+  --fluid-screen: 100vw;
+  --fluid-bp: calc(
+    (var(--fluid-screen) - var(--fluid-min-width) / 16 * 1rem) /
+      (var(--fluid-max-width) - var(--fluid-min-width))
+  );
+}
+
+@media screen and (min-width: 1380px) {
+  :root {
+    --fluid-screen: calc(var(--fluid-max-width) * 1px);
+  }
+}
+
+:root {
+  --f--2-min: 12.16;
+  --f--2-max: 12.38;
+  --step--2: calc(
+    ((var(--f--2-min) / 16) * 1rem) + (var(--f--2-max) - var(--f--2-min)) *
+      var(--fluid-bp)
+  );
+
+  --f--1-min: 15.2;
+  --f--1-max: 16.5;
+  --step--1: calc(
+    ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-0-min: 19;
+  --f-0-max: 22;
+  --step-0: calc(
+    ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-1-min: 23.75;
+  --f-1-max: 29.33;
+  --step-1: calc(
+    ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-2-min: 29.69;
+  --f-2-max: 39.09;
+  --step-2: calc(
+    ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-3-min: 37.11;
+  --f-3-max: 52.11;
+  --step-3: calc(
+    ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-4-min: 46.39;
+  --f-4-max: 69.46;
+  --step-4: calc(
+    ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-5-min: 57.98;
+  --f-5-max: 92.59;
+  --step-5: calc(
+    ((var(--f-5-min) / 16) * 1rem) + (var(--f-5-max) - var(--f-5-min)) *
+      var(--fluid-bp)
+  );
+}
+
+html {
+  color: var(--dark);
+  font-family: var(--font-main);
+  font-weight: normal;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
+}
+
+body,
+.body {
+  font-size: var(--step-0);
+  line-height: 1.5;
+}
+
+.intro {
+  font-size: var(--step-1);
+}
+
+.small {
+  font-size: var(--step--1);
+}
+
+.h,
+.eyebrow {
+  color: inherit;
+  font-family: var(--font-heading);
+  margin-top: 0;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+}
+
+.eyebrow {
+  font-weight: 700;
+  font-size: var(--step--1);
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.h--1 {
+  font-size: var(--step-5);
+  line-height: 1;
+}
+
+.h--2 {
+  font-size: var(--step-4);
+  line-height: 1;
+}
+
+.h--3 {
+  font-size: var(--step-3);
+  line-height: 1.2;
+}
+
+.h--4 {
+  font-size: var(--step-2);
+  line-height: 1.2;
+}
+
+.h--5 {
+  font-size: var(--step-1);
+  line-height: 1.2;
+}
+
+.h--6 {
+  font-size: var(--step-0);
+  line-height: 1.2;
+}
+
+/* inherit color and bulletproof links */
+
+.h a {
+  color: inherit;
+}
+
+a.h,
+.h a,
+a .h {
+  border-bottom: none;
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--grey-dark);
+  }
+}
